@@ -35,7 +35,7 @@ public class EventListener implements Listener {
 
                     } else if (NPC.kill.contains(name)) {
                         entity.close();
-                        player.sendMessage("§aEntity removed");
+                        player.sendMessage("§aEntity removed!");
                         NPC.kill.remove(name);
 
                     } else {
